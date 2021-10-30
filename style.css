@@ -51,6 +51,7 @@ p {
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
+  
 }
 
 .row {
@@ -63,6 +64,8 @@ p {
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
+  padding-right: 0.5%;
+  padding-left: 0.5%;
 }
 
 .col-2 img {
@@ -119,6 +122,7 @@ p {
 }
 
 .small-container {
+  flex-basis: 50%;
   max-width: 1080px;
   margin: auto;
   padding-left: 10px;
@@ -214,7 +218,8 @@ small {
 }
 
 .col-5 {
-  width: 60px;
+  min- width: 60px;
+  
 }
 
 .col-5 img {
@@ -348,9 +353,19 @@ select:focus {
 .container .video {
   position: relative;
   width: 100%;
-  padding-left: 120px;
-  padding-right: 10px;
+ padding-bottom: 56.25%;
 }
+
+.video iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+
+
+
 
 .offer {
   background: radial-gradient(rgb(255, 255, 238), rgb(189, 219, 253));
